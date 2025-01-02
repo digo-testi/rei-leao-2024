@@ -33,11 +33,11 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         <title>Rei leão 2025</title>
         <meta
           property="og:image"
-          content="/og-image.png"
+          content="https://rei-leao-2025.vercel.app/og-image.png"
         />
         <meta
           name="twitter:image"
-          content="/og-image.png"
+          content="https://rei-leao-2025.vercel.app/og-image.png"
         />
       </Head>
       <main className="mx-auto max-w-[1960px] p-4">
