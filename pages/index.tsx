@@ -33,11 +33,11 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         <title>Rei leão 2025</title>
         <meta
           property="og:image"
-          content="https://nextjsconf-pics.vercel.app/og-image.png"
+          content="/og-image.png"
         />
         <meta
           name="twitter:image"
-          content="https://nextjsconf-pics.vercel.app/og-image.png"
+          content="/og-image.png"
         />
       </Head>
       <main className="mx-auto max-w-[1960px] p-4">
@@ -61,7 +61,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             <h1 className="mb-4 text-base font-bold uppercase tracking-widest">
               Rei leão 2025
             </h1>
-            <p className="max-w-[40ch] text-gray-800 sm:max-w-[32ch]">
+            <p className="max-w-[45ch] text-base sm:max-w-[35ch]">
               Celebramos a chegada de 2025 com alegria, união e momentos
               inesquecíveis que marcaram o início de um novo ciclo!
             </p>
