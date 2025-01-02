@@ -61,7 +61,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             <h1 className="mb-4 text-base font-bold uppercase tracking-widest">
               Rei leão 2025
             </h1>
-            <p className="max-w-[40ch] text-gray-800/75 sm:max-w-[32ch]">
+            <p className="max-w-[40ch] text-gray-800 sm:max-w-[32ch]">
               Celebramos a chegada de 2025 com alegria, união e momentos
               inesquecíveis que marcaram o início de um novo ciclo!
             </p>
