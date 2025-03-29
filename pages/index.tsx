@@ -30,7 +30,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
   return (
     <>
       <Head>
-        <title>Rei leão 2025</title>
+        <title>Basset Galery</title>
         <meta
           property="og:image"
           content="https://rei-leao-2025.vercel.app/og-image.jpeg"
