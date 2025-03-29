@@ -59,11 +59,10 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             </div>
             <Logo />
             <h1 className="mb-4 text-base font-bold uppercase tracking-widest">
-              Rei leão 2025
+              Basset Galery
             </h1>
             <p className="max-w-[45ch] text-base sm:max-w-[35ch]">
-              Celebramos a chegada de 2025 com alegria, união e momentos
-              inesquecíveis que marcaram o início de um novo ciclo!
+                A familia mais fofa de família de bassets em curitiba
             </p>
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
