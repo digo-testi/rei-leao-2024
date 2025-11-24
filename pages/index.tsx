@@ -30,7 +30,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
   return (
     <>
       <Head>
-        <title>Rei leão 2025</title>
+        <title>Reveillon 2025</title>
         <meta
           property="og:image"
           content="https://nextjsconf-pics.vercel.app/og-image.png"
@@ -59,7 +59,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             </div>
             <Logo />
             <h1 className="mb-4 text-base font-bold uppercase tracking-widest">
-              Rei leão 2025
+              Reveillon 2025
             </h1>
             <p className="max-w-[40ch] text-gray-800/75 sm:max-w-[32ch]">
               Celebramos a chegada de 2025 com alegria, união e momentos

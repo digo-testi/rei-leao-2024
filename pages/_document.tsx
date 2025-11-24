@@ -8,12 +8,12 @@ class MyDocument extends Document {
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
-            content="Veja as fotos do nosso rei leão"
+            content="Veja as fotos do nosso reveillon"
           />
           <meta property="og:site_name" content="rei-leao-2025.vercel.app" />
           <meta
             property="og:description"
-            content="Veja as fotos do nosso rei leão"
+            content="Veja as fotos do nosso "
           />
           <meta property="og:title" content="Veja as fotos do nosso reveillon" />
           <meta name="twitter:card" content="summary_large_image" />
