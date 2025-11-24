@@ -30,14 +30,14 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
   return (
     <>
       <Head>
-        <title>Basset Galery</title>
+        <title>Rei leão 2025</title>
         <meta
           property="og:image"
-          content="https://rei-leao-2025.vercel.app/og-image.jpeg"
+          content="https://nextjsconf-pics.vercel.app/og-image.png"
         />
         <meta
           name="twitter:image"
-          content="https://rei-leao-2025.vercel.app/og-image.jpeg"
+          content="https://nextjsconf-pics.vercel.app/og-image.png"
         />
       </Head>
       <main className="mx-auto max-w-[1960px] p-4">
@@ -59,10 +59,11 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             </div>
             <Logo />
             <h1 className="mb-4 text-base font-bold uppercase tracking-widest">
-              Basset Galery
+              Rei leão 2025
             </h1>
-            <p className="max-w-[45ch] text-base sm:max-w-[35ch]">
-                A familia mais fofa de família de bassets em curitiba
+            <p className="max-w-[40ch] text-gray-800/75 sm:max-w-[32ch]">
+              Celebramos a chegada de 2025 com alegria, união e momentos
+              inesquecíveis que marcaram o início de um novo ciclo!
             </p>
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
@@ -75,7 +76,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               className="after:content group relative mb-5 block w-full cursor-zoom-in after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight"
             >
               <Image
-                alt="Fotos Reveillon 2025"
+                alt="Next.js Conf photo"
                 className="transform rounded-lg brightness-90 transition will-change-auto group-hover:brightness-110"
                 style={{ transform: "translate3d(0, 0, 0)" }}
                 placeholder="blur"
